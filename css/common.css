@@ -1,0 +1,33 @@
+*::-webkit-scrollbar {
+    width: 5px;
+
+ }
+
+ *::-webkit-scrollbar-thumb {
+    background-color: #dbdbdb;
+    border-radius: 5px;
+ }
+
+
+.container {
+    position: relative;
+    margin: 50px auto;
+    border: 2px solid #dbdbdb;
+    width: 600px;
+    height: 800px;
+    background-color: white;
+    overflow: hidden;
+}
+
+input, textarea {
+    border: none;
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    background-color: #fafafa;
+}
+
+button {
+    cursor: pointer;
+}

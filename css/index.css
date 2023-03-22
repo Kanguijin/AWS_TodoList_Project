@@ -1,0 +1,117 @@
+
+.container {
+    overflow: auto;
+}
+
+.main-header {
+    margin: 10px 0px;
+    height: 100px;
+}
+
+.main-header .main-title {
+    text-align: center;
+}
+
+.todo-input-container {
+    
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.todo-input {
+    padding: 0px 70px 0px 120px;
+    width: 60%;
+    height: 35px;
+    border-bottom: 1px solid #dbdbdb;
+    transition: padding 0.3s ease;
+}
+
+.todo-input:focus {
+    padding: 0px 10px;
+}
+
+
+.todo-input-container .add-todo-btn {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.todo-input-container .fa-circle-plus {
+    font-size: 20px;
+}
+
+.main-nav .nav-container{
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 15px 27px;
+    font-size: 20px;
+}
+
+.nav:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.select-all-container {
+    position: relative;
+    height: 35px;
+}
+
+.select-all-container .select-all {
+    position: absolute;
+    left: 30px;
+    bottom: 1px;
+    width: 26px;
+    height: 27px;
+}
+
+.select-all-content {
+    position: absolute;
+    top: 7px;
+    left: 70px;
+    font-size: 15px;
+}
+
+.todo-content-list {
+    margin: 0px 30px;
+    font-size: 20px;
+}
+
+.todo-content-list .content-container {
+    margin: 15px 0px;
+}
+
+.todo-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.todo-content .checkbox {
+    width: 26px;
+    height: 27px;
+}
+
+
+input[type="checkbox"]:checked + .todo-value {
+   text-decoration: line-through;
+   text-decoration-color: red;
+}
+
+.todo-content .remove-btn {
+    background: none;
+    font-size: 20px;
+    border: none;
+
+}
+
